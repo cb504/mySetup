@@ -1,0 +1,68 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-bitwise": "error",
+    "curly": "error",
+    "no-template-curly-in-string": "error",
+    "eqeqeq": [
+      "error",
+      "always"
+    ],
+    "no-use-before-define": "error",
+    "new-cap": "error",
+    "no-caller": "error",
+    "no-plusplus": "error",
+    "no-trailing-spaces": "error",
+    "wrap-iife": [
+      "error",
+      "outside"
+    ],
+    "indent": [
+      "error",
+      4
+    ],
+    "func-style": [
+      "error",
+      "declaration",
+      { "allowArrowFunctions": true }
+    ],
+    "func-call-spacing": [ "error", "never" ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "comma-style": [ "error", "last" ],
+    "comma-dangle": [
+      "error",
+      "only-multiline",
+      { "functions": "never" }
+    ],
+    "brace-style": [
+      "error",
+      "stroustrup",
+      { "allowSingleLine": true }
+    ],
+    "computed-property-spacing": [ "error", "never" ],
+    "new-parens": "error"
+  }
+}
