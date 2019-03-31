@@ -65,10 +65,19 @@ My User Settings:
 Settings->Apps->Open Default app settings->Turn Windows features on or off->Windows Subsystem for Linux
 ![Settings->Apps->Open Default app settings->Turn Windows features on or off->Windows Subsystem for Linux](static/EnableWSL.png "Enable WSL")
 2. Install Ubuntu from Windows Store
-3. Install "rpm" package on Ubuntu. This will allow you to build RPMs on Ubuntu.
-`sudo apt-get install rpm`
-4. Install Node: https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+3. Setup wsl.conf to mount 'c' drive under root
+	```bash
+	[automount]
+	enabled = true
+	root = /
+	options = "metadata,umask=22,fmask=11"
+	mountFsTab = false
+	```
+#### Optionally install ...
 
+* Install "rpm" package on Ubuntu. This will allow you to build RPMs on Ubuntu.
+`sudo apt-get install rpm`
+* Install Node: https://github.com/nodesource/distributions/blob/master/README.md#debinstall
 
 ## Docker for Windows
 
