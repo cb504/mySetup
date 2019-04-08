@@ -86,7 +86,7 @@ Settings->Apps->Open Default app settings->Turn Windows features on or off->Wind
 	* * I recommend __not__ using the "Edge" installation, only use "stable" builds. I had a lot of problems with "Edge".
 * [Setting Up Docker for Windows and WSL to Work Flawlessly _from May 8, 2018_](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)
 
-Follow instructions there, when you get to the section __Install Docker within WSL__ run the script [resources/setupDockerOnWsl.sh](resources/setupDockerOnWsl.sh)
+Follow instructions there, when you get to the section __Install Docker within WSL__ run the script [resources/setupDockerOnWsl.sh](resources/setupDockerOnWsl.sh) and don't forget to reload bashrc afterwards, `source ~/.bashrc`.
 
 #### Difference in script from what is found in Nick's article
 
