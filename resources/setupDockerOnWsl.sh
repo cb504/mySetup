@@ -2,7 +2,7 @@
 
 # Environment variables you need to set so you don't have to edit the script below.
 export DOCKER_CHANNEL=stable
-export DOCKER_COMPOSE_VERSION=1.22.0
+export DOCKER_COMPOSE_VERSION=1.24.1
 
 # Update the apt package index.
 sudo apt-get update
